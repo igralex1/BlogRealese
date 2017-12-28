@@ -1,0 +1,19 @@
+.false{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid green;
+    text-align: center;
+}
+.false:before{
+    content: '\2713';
+    display: inline-block;
+    color: green;
+    font-size: 30px;
+    line-height: 30px;
+
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
